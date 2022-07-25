@@ -1,0 +1,17 @@
+1)What is oop? List of contents
+Ans:Object-oriented programming-As the name suggest uses object in programming.Object-
+oriented programming aims to implement real-word entities like inheritance,hiding,
+polymorphism,etc in programming.The main aim of oop is to bind together the data and 
+the functions that operate on them so that no part of the code can access this data
+except that function.
+
+
+List of oop contents belowe:
+1.objects
+2.classes
+3.inheritance
+4.data Abstrsction
+5.Data encapsulation
+6.polymorphism
+7.overloding
+8.reusability
