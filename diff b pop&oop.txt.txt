@@ -1,0 +1,13 @@
+2) what is difference between oop and pop
+
+
+1.it is a top to down approach.         1.it is a bottom up approach.
+2.it concentrated on function.          2.it concentrated on data
+					rather than function.
+3.in pop data uses globally.            3.Data is used by a associated
+					function within the class.
+4.due to globle data,it is less         4.it is more secured language   
+secure language.			becouse external function
+					can't access another data.
+5.example:                              5.example:
+c,basic,cobol.fortrun			c++,java,python,php
