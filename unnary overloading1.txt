@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+class pupy
+{
+    public:
+    int no;
+    pupy()
+    {
+        no=0;
+    }
+    pupy(int n)
+    {
+        no=n;
+    }
+    void zx()
+    {
+        cout<<"value of no is\n :"<<no;
+    }
+    pupy operator ++()
+    {
+        ++no;
+        return pupy(no);
+        
+    }
+};
+int main()
+{
+    pupy p1(33);
+    p1.zx();
+    ++p1;
+    cout<<"\nafter unnary operator";
+    p1.zx();
+}
+
