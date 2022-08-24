@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+class dodiya
+{
+    public:
+    int no;
+    dodiya()
+    {
+        no=0;
+    }
+    dodiya (int n)
+    {
+        no=n;
+        
+    }
+    void print()
+    {
+        cout<<"value of no is:"<<no;
+        
+    }
+    dodiya operator ++()
+    {
+        ++no;
+        return dodiya(no);
+    }
+};
+int main()
+{
+    dodiya d1(45);
+    d1.print();
+    ++d1;
+    cout<<"\nafter unary operator:";
+    dodiya d2(d1);
+    d2.print();
+}
